@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Página Personal</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Didot, serif;
+      margin: 0;
+      padding: 20px;
+      background-color: rgb(0, 0, 0); /* Color de fondo claro */
+      color: #333; /* Color de texto principal */
+    }
+    header {
+      background-color: #000000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Times New Roman', serif; /* Cambia el estilo de la fuente */
+      text-align: center;
+      /* Añade una animación al pasar el ratón por encima */
+      transition: transform 0.3s ease-in-out;
+    }
+    header h1:hover {
+      transform: scale(1.1); /* Agranda el texto al pasar el ratón por encima */
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff; /* Color de fondo del contenido */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px; /* Añade un margen inferior a la imagen */
+      transition: transform 0.3s ease-in-out;
+    }
+    img:hover {
+      transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el ratón */
+    }
+
+    section {
+      margin-bottom: 30px; /* Espaciado entre secciones */
+    }
+    a {
+      color: #007bff; /* Color de enlaces */
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline; 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Página Bradley Poma</h1>
+  </header>
+  <div class="container">
+    <section>
+      <h2>Mi Información</h2>
+      <a href="https://github.com/Bradley-Alexander" target="_blank">
+          <img src="bradley.jpg" alt="Mi Foto" width="250">
+      </a>
+      <p><strong>Nombre:</strong> Bradley Alexander Poma Vera</p>
+      <p><strong>Dirección:</strong> Loja - Loja -Ecuador</p>
+      <p><strong>Carrera:</strong> Ingeniería en Ciencias de la Computación</p>
+      <a href="https://unl.edu.ec/oferta_academica/facultad-de-la-energia-las-industrias-y-los-recursos-naturales-no-renovables/computacion-2019" target="_blank">
+      <img src="carreraFoto.avif" alt="Mi Foto" width="300">
+      </a>
+      <p><strong>Universidad:</strong> Universidad Nacional de Loja</p>
+      <a href="https://www.unl.edu.ec/" target="_blank">
+          <img src="logoUNL.png" alt="Mi Foto" width="300">
+      </a>
+    </section>
+    <section>
+      <h2>Información extra</h2>
+      <p>Visita mi perfil en GitHub: <a class="github-link" href="https://github.com/Bradley-Alexander" target="_blank">GitHub Bradley-Alexander</a>.</p>
+      
+    </section>
+  </div>
+</body>
+</html>
